@@ -1,0 +1,68 @@
+{
+  "name": "cityhack21",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "serve_prod": "vue-cli-service serve --mode production"
+  },
+  "dependencies": {
+    "@uppy/core": "^1.14.2",
+    "@uppy/vue": "^0.1.1",
+    "@uppy/webcam": "^1.8.1",
+    "axios": "^0.21.4",
+    "core-js": "^3.6.5",
+    "dayjs": "^1.9.6",
+    "firebase": "^8.2.1",
+    "register-service-worker": "^1.7.1",
+    "sweetalert2": "^10.12.6",
+    "timeline-vuejs": "^1.1.7",
+    "vue": "^2.6.12",
+    "vue-analytics": "^5.22.1",
+    "vue-carousel-3d": "^1.0.1",
+    "vue-fullpage.js": "^0.1.6",
+    "vue-horizontal-timeline": "^0.7.0",
+    "vue-jwt-decode": "^0.1.0",
+    "vue-pdf": "^4.2.0",
+    "vue-router": "^3.4.9",
+    "vue-social-sharing": "^3.0.4",
+    "vuefire": "^2.2.5",
+    "vuetify": "^2.2.11",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "^4.5.10",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.1.0",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "~2.0.7",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.3.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
